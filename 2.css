@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    padding: 0 4px;
+    flex-wrap: wrap;
+    
+}
+.column{
+    width: 25%;
+    flex: 25%;
+}
+.column img {
+    margin-bottom: 5px;
+}
+@media (max-width:800px){
+    .column{
+        width: 50%;
+        flex: 50%;
+    }
+}
+@media (max-width:600px){
+    .column{
+        width: 25%;
+        flex: 25%;
+    }
+}
