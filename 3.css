@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    
+}
+.nav-bar{
+    display: flex;
+    background-color: #333;
+}
+.nav-bar a {
+    color: white;
+    padding: 12px 18px;
+    
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: #ccc;
+    color: black;
+}
+.fake-img{
+    background-color: grey;
+    margin-top: 15px;
+    width: 100%;
+    
+}
+.row{
+    display: flex;
+    padding: 15px;
+}
+.side{
+    margin-right: 35px;
+    margin-left: 0;
+    background-color: #f1f1f1;
+    padding: 12px 12px;
+    line-height: 35px;
+    flex: 30%;
+}
+.main{
+    line-height: 35px;
+    padding: 18px;
+    flex: 70%;
+}
